@@ -1,0 +1,53 @@
+<?php
+
+return [ 
+    'user' => [
+        'title'          => 'Users',
+        'title_singular' => 'User',
+        'fields'         => [
+            'id'                       => 'ID',
+            'id_helper'                => ' ',
+            'name'                     => 'Name',
+            'name_helper'              => ' ',
+            'email'                    => 'Email',
+            'email_helper'             => ' ',
+            'email_verified_at'        => 'Email verified at',
+            'email_verified_at_helper' => ' ',
+            'password'                 => 'Password',
+            'password_helper'          => ' ', 
+            'remember_token'           => 'Remember Token',
+            'remember_token_helper'    => ' ',
+            'created_at'               => 'Created at',
+            'created_at_helper'        => ' ',
+            'updated_at'               => 'Updated at',
+            'updated_at_helper'        => ' ',
+            'deleted_at'               => 'Deleted at',
+            'deleted_at_helper'        => ' ',
+        ],
+    ],
+    'album' => [
+        'title'          => 'Albums',
+        'title_singular' => 'Album',
+        'fields'         => [
+            'id'                => 'ID',
+            'id_helper'         => ' ',
+            'name'              => 'Album Name',
+            'name_helper'       => ' ',
+            'user'              => 'User',
+            'user_helper'       => ' ',
+            'created_at'        => 'Created at',
+            'created_at_helper' => ' ',
+            'updated_at'        => 'Updated at',
+            'updated_at_helper' => ' ',
+            'deleted_at'        => 'Deleted at',
+            'deleted_at_helper' => ' ',
+            'pictures'          => 'Pictures',
+            'pictures_helper'   => ' ',
+            'picture_name'          => 'Picture Name',
+            'picture_name_helper'   => ' ',
+            'single-picture'          => 'Picture',
+            'single-picture_helper'   => ' ',
+        ],
+    ],
+
+];
